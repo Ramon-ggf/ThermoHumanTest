@@ -1,11 +1,13 @@
 import React from 'react'
+import { useAuth0 } from '@auth0/auth0-react'
 
-class Profile extends React.Component {
-    render() {
-        return (
-            <span>Profile</span>
-        )
-    }
+
+const Profile = () => {
+    const { isAuthenticated } = useAuth0()
+    console.log("isAuthenticated", isAuthenticated)
+    return (
+        <span>Profile</span>
+    )
 }
 
 export default Profile;
