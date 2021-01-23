@@ -1,9 +1,10 @@
 import React from "react"
 import { Switch, Route, useHistory } from "react-router-dom"
 import { Auth0Provider, useAuth0 } from "@auth0/auth0-react";
-import { ProtectedRoute } from "./../components";
+import { ProtectedRoute, NavMenu } from "./../components";
 
-import { Login, Profile } from "./../views"
+
+import { Login, Profile, HelloWorld } from "./../views"
 
 const Routing = () => {
 
@@ -13,15 +14,16 @@ const Routing = () => {
         history.push("/profile")
     }
     return (
-
-
+        
         <Auth0Provider
             domain="dev-eqjie6wk.eu.auth0.com"
             clientId="rhaSTRjVlOJyGmNx6RpphxcT4pQZoH5R"
             redirectUri={window.location.origin}
             onRedirectCallback={onRedirectCallback}>
+            <NavMenu/>
             <Switch>
                 <Route path={"/login"} component={Login} />
+                <Route path={"/helloworld"} component={HelloWorld}/>
                 <ProtectedRoute path={"/profile"} component={Profile} />
             </Switch>
         </Auth0Provider>
