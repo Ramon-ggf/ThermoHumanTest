@@ -1,10 +1,15 @@
 import Routing from "./routing"
 import './App.css';
 
+import { NavMenu } from "./components"
+
 function App() {
 
   return (
-    <Routing />
+    <>
+      <NavMenu />
+      <Routing />
+    </>
   )
 }
 
