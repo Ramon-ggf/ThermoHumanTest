@@ -1,10 +1,7 @@
-//import { Form, Button } from "react-bootstrap"
-//import { HelloWorld } from '../../views';
-//import { useAuth0 } from "@auth0/auth0-react"
-
 import React, { useState } from 'react';
-import { useHistory } from "react-router-dom"
+import { useHistory } from "react-router-dom";
 import { Formik, Form, Field } from 'formik';
+import  "./HelloWorldForm.css"
 
 const HelloForm = () => {
 
@@ -54,15 +51,15 @@ const HelloForm = () => {
 
                     return (
                         <>
-                            <Form>
+                            <Form className="helloForm">
                                 <Field
                                     type="text"
                                     name="boxText"
                                     onChange={handleChange}
                                     value={values.boxText} />
-                                <button type="submit" disabled={isDisabled}>Submit</button>
-                                <button type="button" disabled={isDisabled} onClick={handleClick}>Cancel</button>
-                                <button type="button" disabled={!isDisabled} onClick={handleClick}>Exit</button>
+                                <button type="submit" className="btn btn-info" disabled={isDisabled}>Submit</button>
+                                <button type="button" className="btn btn-danger" disabled={isDisabled} onClick={handleClick}>Cancel</button>
+                                <button type="button" className="btn btn-success" disabled={!isDisabled} onClick={handleClick}>Exit</button>
                             </Form>
                             <h1>{isSubmitted ? `Hello ${values.boxText}. Now it is ${currentDate}` : "Who are you?"}</h1>
                         </>
