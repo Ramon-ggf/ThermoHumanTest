@@ -10,7 +10,7 @@ const Header = () => {
             <Navbar />
             <Jumbotron fluid className="header">
                 <Container>
-                    <h1>The Thermo Human Test</h1>
+                    <h1 style={{fontWeight: 900}}>The Thermo Human Test</h1>
                     <p>The best thermical images experience for medical, sports or therapeutical purposes.</p>
                     <LogoutButton />
                 </Container>
