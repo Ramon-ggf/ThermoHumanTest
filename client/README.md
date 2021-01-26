@@ -6,13 +6,19 @@ This company is a pioneer in the analysis of thermal imaging of the human body f
 
 Remember that you need to log in if you want to access the content.To do so, if you already have an account you can directly log in through Auth0:
 
+## Log in with Auth0
+
 ![alt text](https://github.com/Ramon-ggf/ThermoHumanTest/blob/main/client/Log%20In%20auth0.PNG "Login with auth0")
 
-Just fill the fields with your credentials.
+Just fill the fields with your credentials. Once you have logged in, you will be automatically redirected to the site default page. 
 
-If not, you will need to sign up.
+If you don't have an account yet, you will need to sign up.
+
+## Sign up with Auth0
 
 ![alt text](https://github.com/Ramon-ggf/ThermoHumanTest/blob/main/client/Sign%20up%20auth0.PNG "Sign up with auth0")
+
+You just need to fill the required fields as for the Log in process. Once you have signed up, you will be automatically redirected to the site default page. 
 
 ## Pages in this site
 
