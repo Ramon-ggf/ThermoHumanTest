@@ -1,4 +1,4 @@
-import { Form } from "react-bootstrap";
+import { Form } from "react-bootstrap"
 
 const ProfileForm = ({ email, name, nickname, updated_at }) => {
     
@@ -27,4 +27,4 @@ const ProfileForm = ({ email, name, nickname, updated_at }) => {
     )
 }
 
-export default ProfileForm;
+export default ProfileForm
