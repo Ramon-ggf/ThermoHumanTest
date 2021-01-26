@@ -18,11 +18,11 @@ Contains all the information about the logged in user in non-editable form contr
 
 Contains a form input where you can write whatever you want. In this page you can also find three different buttons (submit, cancel and exit). 
 
-- Once you press the **submit button**, only avaialble when the text field has some content, what you have written will displayed in the upper text box with the following structure: "Hello, _your text_. Now it is _current date_".
+- Once you press the **submit button**, only avaialble when the text field has some content, what you have written will be displayed in the upper text box with the following structure: "Hello, _your text_. Now it is _current date_".
 
-If the box doesn't contain anything o the text changes, the message displayed will be: "Who are you?". The submit button won't be available if the text field is empty.
+If the box doesn't contain anything or the text changes, the message displayed will be: "Who are you?". The submit button won't be available if the text field is empty or if you has already submitted the content.
 
-- The **cancel button** will be available is the text field has some content and it allows you to clear the field and return to the User Profile.
+- The **cancel button** will be available if the text field has some content and it allows you to clear the field and return to the User Profile.
 
 - The **exit button** will be available if the text field is empty and it allows you to return to the User Profile.
 
