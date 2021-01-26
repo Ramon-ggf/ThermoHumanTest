@@ -46,7 +46,7 @@ This will install all the necesary dependencies for the correct running of the a
 
 This command runs the app in the development mode. You will see that your browser will automatically open on [http://localhost:3000](http://localhost:3000), your local server. After that, you will be able to see the application running locally in your browser. 
 
-If your browser doesn't open automatically, open [http://localhost:3000](http://localhost:3000) to view the application in the browser.
+If your browser doesn't open automatically, open it manually and type [http://localhost:3000](http://localhost:3000) as URL to view the application in the browser.
 
 The page will reload if you make edits in the files that contain the code.
 
