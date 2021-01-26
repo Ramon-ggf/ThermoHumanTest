@@ -32,6 +32,8 @@ The site will always display the user profile as the default page. That's why yo
 
 ### User Profile
 
+![alt text](https://github.com/Ramon-ggf/ThermoHumanTest/blob/main/client/Profile.PNG "User profile info")
+
 Contains all the information about the logged in user in non-editable form controls (username, user nickname, user email and last login). 
 
 ### Hello World
