@@ -8,15 +8,21 @@ This company is a pioneer in the analysis of thermal imaging of the human body f
 
 This web site is composed by a header, with a navigation menu and a log out button. Remember that you need to log in if you want to access the content.
 
+You will find two options in the menu that will show you three different pages:
+
+### Default page
+
 ![alt text](https://github.com/Ramon-ggf/ThermoHumanTest/blob/main/client/Main%20page.PNG "Main site")
 
-You will find two options in the menu that will show you two different pages:
+The site will always display the user profile as the default page. That's why you must log in first of all.
 
 ### User Profile
 
 Contains all the information about the logged in user in non-editable form controls (username, user nickname, user email and last login). 
 
 ### Hello World
+
+![alt text](https://github.com/Ramon-ggf/ThermoHumanTest/blob/main/client/Hello%20World%20empty.PNG "Hello World empty")
 
 Contains a form input where you can write whatever you want. In this page you can also find three different buttons (submit, cancel and exit). 
 
@@ -28,9 +34,7 @@ If the box doesn't contain anything or the text changes, the message displayed w
 
 - The **exit button** will be available if the text field is empty and it allows you to return to the User Profile.
 
-### Default page
-
-The site will always display the user profile as the default page. That's why you must log in first of all.
+![alt text](https://github.com/Ramon-ggf/ThermoHumanTest/blob/main/client/Hello%20World%20guest.PNG "Hello World guest")
 
 ## Installation
 
