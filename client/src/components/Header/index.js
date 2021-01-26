@@ -11,13 +11,12 @@ const Header = () => {
             <Jumbotron fluid className="header">
                 <Container>
                     <h1 style={{fontWeight: 900}}>The Thermo Human Test</h1>
-                    <p>The best thermical images experience for medical, sports or therapeutical purposes.</p>
+                    <p>The best thermical experience for medical, sports or therapeutical purposes.</p>
                     <LogoutButton />
                 </Container>
             </Jumbotron>
         </>
-
     )
 }
 
-export default Header;
+export default Header

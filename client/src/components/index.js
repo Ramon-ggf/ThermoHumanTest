@@ -1,4 +1,3 @@
-import LoginButton from "./LoginButton"
 import LogoutButton from "./LogoutButton"
 import ProtectedRoute from "./ProtectedRoutes"
 import NavMenu from "./Navbar"
@@ -7,7 +6,6 @@ import Header from "./Header"
 import ProfileForm from "./ProfileForm"
 
 export {
-    LoginButton,
     LogoutButton,
     ProtectedRoute,
     NavMenu,

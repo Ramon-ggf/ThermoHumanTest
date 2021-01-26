@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Welcome!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the ThermoHuman Test. This an app test for the [ThermoHuman](https://thermohuman.com/es/) company.
 
-## Available Scripts
+This company is a pioneer in the analysis of thermal imaging of the human body for medical, therapeutic and sports purposes.
 
-In the project directory, you can run:
+## Pages in this site
+
+This web site is composed by a header, with a navigation menu and a log out button. Remember that you need to log in if you want to access the content.
+
+You will find two options in the menu that will show you two different pages:
+
+### User Profile
+
+Contains all the information about the logged in user in non-editable form controls (username, user nickname, user email and last login). 
+
+### Hello World
+
+Contains a form input where you can write whatever you want. In this page you can also find three different buttons (submit, cancel and exit). 
+
+- Once you press the **submit button**, only avaialble when the text field has some content, what you have written will displayed in the upper text box with the following structure: "Hello, _your text_. Now it is _current date_".
+
+If the box doesn't contain anything o the text changes, the message displayed will be: "Who are you?". The submit button won't be available if the text field is empty.
+
+- The **cancel button** will be available is the text field has some content and it allows you to clear the field and return to the User Profile.
+
+- The **exit button** will be available if the text field is empty and it allows you to return to the User Profile.
+
+### Default page
+
+The site will always display the user profile as the default page. That's why you must log in first of all.
+
+## Installation
+
+To install this application:
+
+1. Clone this repo in your local machine by running the following command in your CLI, in the folder where your want to store the application: `git clone`.
+
+2. Once you have cloned the repo, enter in the root folder, where the file package.json is stored and run the following command: `npm i`.
+
+This will install all the necesary dependencies for the correct running of the application.
+
+3. After this two previous steps, run this command in your CLI to stand up the server and make the application run: `npm start`.
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This command runs the app in the development mode. You will see that your browser will automatically open on [http://localhost:3000](http://localhost:3000), your local server. After that, you will be able to see the application running locally in your browser. 
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+If your browser doesn't open automatically, open [http://localhost:3000](http://localhost:3000) to view the application in the browser.
 
-### `npm test`
+The page will reload if you make edits in the files that contain the code.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+That's all! Enjoy navigating! :)

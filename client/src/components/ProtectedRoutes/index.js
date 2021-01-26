@@ -1,15 +1,17 @@
-import React from "react";
-import { Route } from "react-router-dom";
-import { withAuthenticationRequired } from "@auth0/auth0-react";
+import React from "react"
+import { Route } from "react-router-dom"
+import { withAuthenticationRequired } from "@auth0/auth0-react"
+
+import {Loader} from "./../../shared"
 
 
 const ProtectedRoute = ({ component, ...args }) => (
   <Route
     component={withAuthenticationRequired(component, {
-      onRedirecting: () => <p>Loading...</p>,
+      onRedirecting: () => <Loader/>,
     })}
     {...args}
   />
-);
+)
 
-export default ProtectedRoute;
+export default ProtectedRoute

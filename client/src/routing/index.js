@@ -1,9 +1,9 @@
 import React from "react"
+
 import { Switch, Route, useHistory } from "react-router-dom"
-import { Auth0Provider } from "@auth0/auth0-react";
-import { ProtectedRoute, Header } from "./../components";
+import { Auth0Provider } from "@auth0/auth0-react"
 
-
+import { ProtectedRoute, Header } from "./../components"
 import { Profile, HelloWorld } from "./../views"
 
 const Routing = () => {
@@ -11,9 +11,9 @@ const Routing = () => {
     const history = useHistory()
 
     const onRedirectCallback = () => {
-        history.push("/profile")
+        history.push("/")
     }
-    
+
     return (
         <Auth0Provider
             domain="dev-eqjie6wk.eu.auth0.com"
@@ -30,4 +30,4 @@ const Routing = () => {
     )
 }
 
-export default Routing;
+export default Routing
