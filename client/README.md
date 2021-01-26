@@ -4,11 +4,19 @@ Welcome to the ThermoHuman Test. This an app test for the [ThermoHuman](https://
 
 This company is a pioneer in the analysis of thermal imaging of the human body for medical, therapeutic and sports purposes.
 
+Remember that you need to log in if you want to access the content.To do so, if you already have an account you can directly log in through Auth0:
+
+![alt text] (https://github.com/Ramon-ggf/ThermoHumanTest/blob/main/client/Log%20In%20auth0.PNG "Login with auth0")
+
+Just fill the fields with your credentials.
+
+If not, you will need to sign up.
+
+![alt text] (https://github.com/Ramon-ggf/ThermoHumanTest/blob/main/client/Sign%20up%20auth0.PNG "Sign up with auth0")
+
 ## Pages in this site
 
-This web site is composed by a header, with a navigation menu and a log out button. Remember that you need to log in if you want to access the content.
-
-You will find two options in the menu that will show you three different pages:
+This web site is composed by a header, with a navigation menu and a log out button. You will find two options in the menu that will show you three different pages:
 
 ### Default page
 
