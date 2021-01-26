@@ -8,6 +8,8 @@ This company is a pioneer in the analysis of thermal imaging of the human body f
 
 This web site is composed by a header, with a navigation menu and a log out button. Remember that you need to log in if you want to access the content.
 
+![alt text](https://github.com/Ramon-ggf/ThermoHumanTest/blob/main/client/Main%20page.PNG "Main site")
+
 You will find two options in the menu that will show you two different pages:
 
 ### User Profile
