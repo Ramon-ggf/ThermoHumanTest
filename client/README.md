@@ -4,7 +4,7 @@ Welcome to the ThermoHuman Test. This an app test for the [ThermoHuman](https://
 
 This company is a pioneer in the analysis of thermal imaging of the human body for medical, therapeutic and sports purposes.
 
-Remember that you need to log in if you want to access the content.To do so, if you already have an account you can directly log in through Auth0:
+Remember that you need to log in if you want to access the content. To do so, if you already have an account you can directly log in through Auth0:
 
 ## Log in with Auth0
 
